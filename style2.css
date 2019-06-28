@@ -1,0 +1,90 @@
+body  
+         {
+            
+            background: #F8F8F8;
+
+        }
+
+        
+
+        #main_title
+        {
+            font-family: HelveticaNeue-Bold;
+            font-size: 52px;
+            color: #004A80;
+            letter-spacing: 0;
+            text-align: center;
+        }
+
+        section
+        {
+            font-family: HelveticaNeue;
+            font-size: 24px;
+            color: #000000;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 32px;
+        }
+
+        
+        #titulo_posterior
+        {
+            font-family: HelveticaNeue-Bold;
+            font-size: 52px;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            text-align: center;
+        }
+
+        #texto_posterior
+        {
+            font-family: HelveticaNeue;
+            font-size: 24px;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 29px;
+        }
+        
+        #Posterior
+        {
+            background: #004A80;
+        }
+
+        section a
+        {
+            font-family: HelveticaNeue-Bold;
+            font-size: 24px;
+            color: #F6BC25;
+            letter-spacing: 0;
+            text-align: center;
+        }
+
+         #input_posterior
+        {
+            height: 70px;
+            width: 780px;
+            
+            box-shadow: inset 0 -1px 4px 0 rgba(0,0,0,0.20);
+            border-radius: 3px;
+            border-radius: 3px;
+            
+        }
+
+        button.submit
+        {
+            height: 28px;
+            width: 47px;
+            text-align: center;
+            background-image: linear-gradient(225deg, #F2DA56 0%, #F6BC25 100%);
+            box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+            border-radius: 6px;
+            border-radius: 6px;
+        }
+
+        #Suggest{
+            font-family: HelveticaNeue-Bold;
+            font-size: 16px;
+color: #F6BC25;
+letter-spacing: 0;
+        }
