@@ -1,0 +1,140 @@
+/*Diseño de page index*/
+
+body  
+         {
+            
+            background: #004A80;
+
+        }
+
+        
+
+        #main_title
+        {
+            display: inline-block;
+            font-family: HelveticaNeue-Bold;
+            font-size: 52px;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            text-align: center;
+        }
+
+        section
+        {
+            font-family: HelveticaNeue;
+            font-size: 24px;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 29px;
+        }
+
+        section a
+        {
+            font-family: HelveticaNeue-Bold;
+            font-size: 24px;
+            color: #F6BC25;
+            letter-spacing: 0;
+            text-align: center;
+        }
+
+        .contact_form input
+        {
+            height: 70px;
+            width: 780px;
+            
+            box-shadow: inset 0 -1px 4px 0 rgba(0,0,0,0.20);
+            border-radius: 3px;
+            border-radius: 3px;
+        }
+
+        #BotonResult
+        {
+            height: 28px;
+            width: 47px;
+            background-image: linear-gradient(225deg, #F2DA56 0%, #F6BC25 100%);
+            box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+            border-radius: 6px;
+            border-radius: 6px;
+        }
+
+        #inferior
+        {
+           background: #FFFFFF;
+        }
+
+        #titulo-articul
+        {
+            font-family: HelveticaNeue-Bold;
+            font-size: 52px;
+            color: #004A80;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 70px;
+        }
+
+        #text-articul
+        {
+            font-family: HelveticaNeue;
+            font-size: 22px;
+            color: #4A4A4A;
+            letter-spacing: 0;
+            line-height: 30px;
+        }
+
+        #aside
+        {
+            font-family: HelveticaNeue;
+            font-size: 18px;
+            color: #000000;
+            letter-spacing: 0;
+           line-height: 26px;
+        }
+
+        aside h1
+        {
+            font-family: HelveticaNeue-Bold;
+            font-size: 48px;
+           color: #F6BC25;
+           letter-spacing: 0;
+           text-align: center;
+
+
+        }
+
+        /*Dos columnas en aside*/
+
+        #texto-izquier
+        {
+            padding: 10px; 
+            float: left;
+            width: 45%; 
+            text-align: justify
+
+
+        }
+
+        #texto-derch
+        {
+            padding: 10px; 
+            float: right;
+            width: 45%; 
+            text-align: justify
+
+        
+        }
+
+        /*Cambio de color en input email*/
+
+        .contact_form input:required:valid, .contact_form textarea:required:valid{
+            background: #fff url(images/valid.png) no-repeat 98% center;
+            box-shadow: 0px 0px 5px #5cd053;
+            border-color: #38891f;
+        }
+        
+        .contact_form input:focus:invalid, .contact_form focus:required:invalid{
+            background: #fff url(images/invalid.png) no-repeat 98% center;
+            box-shadow: 0px 0px 5px #d45252;
+            border-color: #d45252;
+        }
+  
